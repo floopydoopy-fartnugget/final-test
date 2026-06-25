@@ -37,5 +37,7 @@ steps:
   displayName: 'pytest'
 
 - script: |
-    python printme.py
+    python print_me.py
   displayName: 'printtest'
+  # for sum reason its skipping this script imma try and rename it
+  
